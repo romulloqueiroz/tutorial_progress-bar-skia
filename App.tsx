@@ -26,7 +26,7 @@ const App = () => {
 
       <View absolute>
         <Text style={{ fontSize: 32, color: '#6A5ACD', fontWeight: 'bold' }}>
-          TIMER: {countdown}
+          TIMER: {countdown}s
         </Text>
       </View>
 

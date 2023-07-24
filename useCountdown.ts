@@ -15,7 +15,6 @@ export const useCountdown = (totalTime: number) => {
   }, [countdown, isPaused])
 
   const toggle = () => setIsPaused((prevIsPaused) => !prevIsPaused)
-
   const reset = () => setCountdown(totalTime)
 
   return { countdown, toggle, isPaused, reset }
