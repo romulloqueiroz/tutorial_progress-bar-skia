@@ -17,7 +17,6 @@ import {
 interface CircularProgressProps {
   size?: number
   strokeWidth?: number
-  duration?: number
   maxValue: number
   currentValue: number
 }
